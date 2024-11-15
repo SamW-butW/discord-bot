@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@particle-network/aa": "^2.0.2",
+    "@particle-network/rn-base": "^2.0.5",
+    "axios": "^1.7.7",
+    "crypto": "^1.0.1",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.4",
+    "lodash": "^4.17.21",
+    "viem": "^2.21.45",
+    "web3": "^4.15.0",
+    "web3-providers-http": "^4.2.0",
+    "web3-providers-ws": "^4.0.8",
+    "web3-utils": "^4.3.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^10.8.2"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  }
+}
